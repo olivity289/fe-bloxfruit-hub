@@ -1,0 +1,39 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("bloxfruit hub ", "BloodTheme")
+
+-- Bloxfruit
+
+local Bloxfruit = Window:NewTab ("Bloxfruit")
+
+local CodeSection = :NewSection("Bloxfruit")
+
+BloxfruitSection:NewButton("zaquehub", " blox fruit", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+
+end)
+
+BloxfruitSection:NewButton("playbackxhub", " blox fruit", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/PlaybackXHub.lua"))()
+
+end)
+
+BloxfruitSection:NewButton("cframehub", " blox fruit", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruitV2.lua"))()
+
+end)
+
+BloxfruitSection:NewButton("nubhub", " blox fruit", function()
+
+    loadstring(game:HttpGet('https://rawscripts.net/raw/UPDATE-16-Blox-Fruits-Nub-V1-Hub-4583'))()
+
+end)
+
+BloxfruitSection:NewButton("hohohub", " blox fruit", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+
+end)
